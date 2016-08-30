@@ -16,43 +16,25 @@ namespace Greeting_Web_Application.Smit_ce125.GreetingCardMaker_Version1
             if (!this.IsPostBack)
             {
                 // Set color options.
-                lstBackColor.Items.Add("White");
-lstBackColor.Items.Add("Red");
-                lstBackColor.Items.Add("Green");
-                lstBackColor.Items.Add("Blue");
-                lstBackColor.Items.Add("Yellow");
+                string[] colorArray = Enum.GetNames(typeof(KnownColor));
+                lstBackColor.DataSource = colorArray;
+                lstBackColor.DataBind();
                 // Set font options.
                 InstalledFontCollection fonts = new InstalledFontCollection();
                 foreach (FontFamily family in fonts.Families)
 {
                     lstFontName.Items.Add(family.Name);
                 }
-                // Set border style options by adding a series of
-                // ListItem objects.
-                ListItem item = new ListItem();
-                // The item text indicates the name of the option.
-                item.Text = BorderStyle.None.ToString();
-                // The item value records the corresponding integer
-                // from the enumeration. To obtain this value, you
-                // must cast the enumeration value to an integer,
-                // and then convert the number to a string so it
-                // can be placed in the HTML page.
-                item.Value = ((int)BorderStyle.None).ToString();
-                // Add the item.
-                lstBorder.Items.Add(item);
-                // Now repeat the process for two other border styles.
-                item = new ListItem();
-                item.Text = BorderStyle.Double.ToString();
-                item.Value = ((int)BorderStyle.Double).ToString();
-                lstBorder.Items.Add(item);
-                item = new ListItem();
-                item.Text = BorderStyle.Solid.ToString();
-                item.Value = ((int)BorderStyle.Solid).ToString();
-                lstBorder.Items.Add(item);
+                // Set border style options
+                string[] borderStyleArray = Enum.GetNames(typeof(BorderStyle));
+                lstBorder.DataSource = borderStyleArray;
+                lstBorder.DataBind();
+                // Select the first border option.
+                lstBorder.SelectedIndex = 0;
                 // Select the first border option.
                 lstBorder.SelectedIndex = 0;
                 // Set the picture.
-                imgDefault.ImageUrl = "defaultpic.png";
+                imgDefault.ImageUrl = "image.png";
             } }
 
 
