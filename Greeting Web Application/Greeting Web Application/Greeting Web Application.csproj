@@ -19,6 +19,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -195,6 +196,10 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Site.Master" />
+    <Content Include="Smit_ce125\GreetingCardMaker_Version2\Version2.aspx" />
+    <Content Include="Smit_ce125\GreetingCardMaker_Version3\Version3.aspx" />
+    <Content Include="Smit_ce125\GreetingCardMaker_Version4\Version4.aspx" />
+    <Content Include="Smit_ce125\GreetingCardMaker_Version5\Version 5.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -287,6 +292,33 @@
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
+    <Compile Include="Smit_ce125\GreetingCardMaker_Version2\Version2.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Smit_ce125\GreetingCardMaker_Version2\Version2.aspx.designer.cs">
+      <DependentUpon>Version2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Smit_ce125\GreetingCardMaker_Version3\Version3.aspx.cs">
+      <DependentUpon>Version3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Smit_ce125\GreetingCardMaker_Version3\Version3.aspx.designer.cs">
+      <DependentUpon>Version3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Smit_ce125\GreetingCardMaker_Version4\Version4.aspx.cs">
+      <DependentUpon>Version4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Smit_ce125\GreetingCardMaker_Version4\Version4.aspx.designer.cs">
+      <DependentUpon>Version4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Smit_ce125\GreetingCardMaker_Version5\Version 5.aspx.cs">
+      <DependentUpon>Version 5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Smit_ce125\GreetingCardMaker_Version5\Version 5.aspx.designer.cs">
+      <DependentUpon>Version 5.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Startup.cs" />
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
@@ -298,6 +330,11 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Smit_ce125\GreetingCardMaker_Version1\" />
+    <Folder Include="Smit_ce125\GreetingCardMaker_Version6\" />
+    <Folder Include="Smit_ce125\GreetingCardMaker_Version7\" />
+    <Folder Include="Smit_ce125\GreetingCardMaker_Version8\" />
+    <Folder Include="Smit_ce125\GreetingCardMaker_Version9\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
