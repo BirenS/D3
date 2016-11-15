@@ -153,6 +153,7 @@
     <Content Include="Account\Register.aspx" />
     <Content Include="Account\RegisterExternalLogin.aspx" />
     <Content Include="CE-122\default.jpg" />
+    <Content Include="CE-122\Version-3.aspx" />
     <Content Include="CE-122\Version-2.aspx" />
     <Content Include="CE-122\Version1.aspx" />
     <Content Include="Contact.aspx" />
@@ -258,6 +259,13 @@
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="CE-122\Version-3.aspx.cs">
+      <DependentUpon>Version-3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CE-122\Version-3.aspx.designer.cs">
+      <DependentUpon>Version-3.aspx</DependentUpon>
+    </Compile>
     <Compile Include="CE-122\Version-2.aspx.cs">
       <DependentUpon>Version-2.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
