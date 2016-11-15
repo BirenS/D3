@@ -159,6 +159,7 @@
     <Content Include="CE-122\Version-5.aspx" />
     <Content Include="CE-122\Version-6-1.aspx" />
     <Content Include="CE-122\Version-6-2.aspx" />
+    <Content Include="CE-122\Version-7-1.aspx" />
     <Content Include="CE-122\Version1.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
@@ -304,6 +305,13 @@
     </Compile>
     <Compile Include="CE-122\Version-6-2.aspx.designer.cs">
       <DependentUpon>Version-6-2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CE-122\Version-7-1.aspx.cs">
+      <DependentUpon>Version-7-1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CE-122\Version-7-1.aspx.designer.cs">
+      <DependentUpon>Version-7-1.aspx</DependentUpon>
     </Compile>
     <Compile Include="CE-122\Version1.aspx.cs">
       <DependentUpon>Version1.aspx</DependentUpon>
