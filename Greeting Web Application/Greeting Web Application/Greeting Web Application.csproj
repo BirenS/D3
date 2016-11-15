@@ -19,6 +19,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -151,6 +152,20 @@
     <Content Include="Account\OpenAuthProviders.ascx" />
     <Content Include="Account\Register.aspx" />
     <Content Include="Account\RegisterExternalLogin.aspx" />
+    <Content Include="CE-122\default.jpg" />
+    <Content Include="CE-122\Version-3.aspx" />
+    <Content Include="CE-122\Version-2.aspx" />
+    <Content Include="CE-122\Version-4.aspx" />
+    <Content Include="CE-122\Version-5.aspx" />
+    <Content Include="CE-122\Version-6-1.aspx" />
+    <Content Include="CE-122\Version-6-2.aspx" />
+    <Content Include="CE-122\Version-7-1.aspx" />
+    <Content Include="CE-122\Version-7-2.aspx" />
+    <Content Include="CE-122\Version-8-1.aspx" />
+    <Content Include="CE-122\Version-8-2.aspx" />
+    <Content Include="CE-122\Version-9-1.aspx" />
+    <Content Include="CE-122\Version-9-2.aspx" />
+    <Content Include="CE-122\Version1.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
@@ -254,6 +269,97 @@
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="CE-122\Version-3.aspx.cs">
+      <DependentUpon>Version-3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CE-122\Version-3.aspx.designer.cs">
+      <DependentUpon>Version-3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CE-122\Version-2.aspx.cs">
+      <DependentUpon>Version-2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CE-122\Version-2.aspx.designer.cs">
+      <DependentUpon>Version-2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CE-122\Version-4.aspx.cs">
+      <DependentUpon>Version-4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CE-122\Version-4.aspx.designer.cs">
+      <DependentUpon>Version-4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CE-122\Version-5.aspx.cs">
+      <DependentUpon>Version-5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CE-122\Version-5.aspx.designer.cs">
+      <DependentUpon>Version-5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CE-122\Version-6-1.aspx.cs">
+      <DependentUpon>Version-6-1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CE-122\Version-6-1.aspx.designer.cs">
+      <DependentUpon>Version-6-1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CE-122\Version-6-2.aspx.cs">
+      <DependentUpon>Version-6-2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CE-122\Version-6-2.aspx.designer.cs">
+      <DependentUpon>Version-6-2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CE-122\Version-7-1.aspx.cs">
+      <DependentUpon>Version-7-1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CE-122\Version-7-1.aspx.designer.cs">
+      <DependentUpon>Version-7-1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CE-122\Version-7-2.aspx.cs">
+      <DependentUpon>Version-7-2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CE-122\Version-7-2.aspx.designer.cs">
+      <DependentUpon>Version-7-2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CE-122\Version-8-1.aspx.cs">
+      <DependentUpon>Version-8-1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CE-122\Version-8-1.aspx.designer.cs">
+      <DependentUpon>Version-8-1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CE-122\Version-8-2.aspx.cs">
+      <DependentUpon>Version-8-2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CE-122\Version-8-2.aspx.designer.cs">
+      <DependentUpon>Version-8-2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CE-122\Version-9-1.aspx.cs">
+      <DependentUpon>Version-9-1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CE-122\Version-9-1.aspx.designer.cs">
+      <DependentUpon>Version-9-1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CE-122\Version-9-2.aspx.cs">
+      <DependentUpon>Version-9-2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CE-122\Version-9-2.aspx.designer.cs">
+      <DependentUpon>Version-9-2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CE-122\Version1.aspx.cs">
+      <DependentUpon>Version1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CE-122\Version1.aspx.designer.cs">
+      <DependentUpon>Version1.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
